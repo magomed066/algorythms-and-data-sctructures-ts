@@ -29,6 +29,3 @@ function checkBrackets(str: string) {
 
 	return !stack.size()
 }
-
-console.log(checkBrackets('[()]{}{[()()]()}')) // true
-console.log(checkBrackets('[(])')) // false
