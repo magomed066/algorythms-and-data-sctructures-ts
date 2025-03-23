@@ -1,6 +1,6 @@
 import './style.css'
 import typescriptLogo from './typescript.svg'
-import './data-structures/stack'
+import './data-structures/linked-list'
 
 document.querySelector<HTMLDivElement>('#app')!.innerHTML = `
   <div>
